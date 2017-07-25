@@ -6,27 +6,19 @@
 
 <body>
 
-<!-- Menu de navigation du site -->
-<ul class="navbar">
-  <li><a href="index.html">Home page</a>
-  <li><a href="reflexions.html">Réflexions</a>
-  <li><a href="ville.html">Ma ville</a>
-  <li><a href="liens.html">Liens</a>
-</ul>
 
-<!-- Contenu principal -->
-<h1>Ma première page avec du style</h1>
 
-<p>Bienvenue sur ma page avec du style! 
+  <fieldset class="co"><legend="co"> connextion </legend>
 
-<p>Il lui manque des images, mais au moins, elle a du style. Et elle a desliens, même s'ils ne mènent nulle part...
-&hellip;
+<form method="post" action="don.html">
 
-<p>Je devrais étayer, mais je ne sais comment encore.
-
-<!-- Signer et dater la page, c'est une question de politesse! -->
-<address>Fait le 5 avril 2004<br>
-  par moi.</address>
+<label for="pseudo">pseudo </label> <input type="text" name="pseudo" class="pseud" placeholder="entrer votre pseudo" required>
+<br/>
+<label for="password">password </label><input type="password" name="password" class="pass" placeholder="entrer votre password" required>
+<br/>
+<label for="box">se souvenir de moi</label><input type="checkbox" class="log" > <br>
+<input type="submit" value="valider">
+<input type="reset" value="reset">
 
 </body>
 </html>
